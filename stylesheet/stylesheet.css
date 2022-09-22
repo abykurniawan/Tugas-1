@@ -1,16 +1,7 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
 .header{
-    background-color: aqua;
+    background-color: #26d0c9;
     height: 90px;
-}
-
-.header-logo{
-    font-size: 36px;
-    float: left;
-    padding: 20px 40px;
+    color: #fff;
 }
 
 li{
@@ -19,13 +10,39 @@ li{
     padding: 33px 20px;
 }
 
+.header-logo{
+    font-size: 36px;
+    float: left;
+    padding: 20px 40px;
+}
+    
 .main{
-    background-color: orangered;
+    background-color: #bdf7f1;
+    height: 600px;
 }
 
 .footer{
-    background-color: cornsilk;
-    height: 220px;
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo{
+    font-size: 32px;
+    float: left;
+}
+
+.footer-list{
+    float: right;
+}
+
+.footer-list li{
+    padding-bottom: 20px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .copy-container span{
@@ -35,13 +52,7 @@ li{
 .content{
     height: 500px;
     margin-top: 100px;
-}
-
-.section-title{
-    border-bottom: 2px solid blue;
-    font-size: 28px;
-    padding-bottom: 15px;
-    margin-bottom: 50px;
+    background-color: #bdf7f1;
 }
 
 .content-item{
@@ -55,6 +66,14 @@ li{
 
 .contact-form{
     padding-top: 100px;
+    background-color: aquamarine;
+}
+
+.section-title{
+    border-bottom: 2px solid blue;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 .contact-form input{
@@ -78,16 +97,4 @@ li{
 .contact-submit{
     background: purple;
     color: aquamarine;
-}
-
-.footer-logo{
-    background-color: blue;
-}
-
-.footer-list{
-    float: right;
-}
-
-.footer-list li{
-    padding-bottom: 20px;
 }
